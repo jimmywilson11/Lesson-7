@@ -1,0 +1,142 @@
+@import url('../fonts/fonts.css');
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+header {
+    background-color: #000;
+    padding-top: 48px;
+    padding-bottom: 10px;
+}
+
+.nav-item a {
+    /* font: 400 normal, 22px/31px "Droid Sans Regular" serif; */
+    font-family: 'Droid Sans Regular' serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #FF0000;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+/* .row-greetings {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.sixteen-nine {
+    position: relative;
+}
+
+.sixteen-nine:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.3%;
+}
+
+.sixteen-nine>.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.row-greetings h2 {
+    font-size: 80px;
+    letter-spacing: 1px;
+    line-height: 93px;
+    color: #000;
+    font-family: "Droid Sans Bold" serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 122px; 
+}
+
+.row-greetings p {
+    padding-top: 20px;
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #000;
+    font-family: "Droid Serif Regular" serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.row-greetings a {
+    display: block;
+    max-width: 64px;
+    max-height: 64px;
+    margin: 0 auto;
+}
+
+.row-greetings a>span {
+    padding: 8px 17px;
+    background-color: #2ECC71;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.wrapper::after {
+    position: absolute;
+    content: '';
+    width: calc(50% - 32px);
+    display: block;
+    height: 2px;
+    background: #000;
+    z-index: 15;
+    left: calc(50% + 32px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.portfolio-item-list {
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.portfolio-item-list a {
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    border-radius: 20px;
+    color: #2C3E50;
+    font-weight: 400;
+}
+
+.portfolio-item-list a:hover {
+    padding: 5px 20px;
+    color: #FFF;
+    background-color: #2ECC71;
+    outline: none;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
