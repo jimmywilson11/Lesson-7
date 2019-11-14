@@ -27,9 +27,7 @@ header {
 }
 
 
-.row-greetings {
-    padding-bottom: 100px;
-}
+
 
 video {
     width: 100%;
@@ -53,6 +51,10 @@ video {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.row-greetings {
+    padding-bottom: 100px;
 }
 
 .row-greetings h2 {
@@ -125,9 +127,10 @@ video {
 
 .service-card span {
     font-size: 75px;
-    max-width: 135px;
+    width: 140px;
+    height: 140px;
     text-align: center;
-    padding: 25px;
+    padding: 30px 0 0 0;
     color: #FFF;
     border: solid 3px #FFF;
     border-radius: 50%;
@@ -163,6 +166,17 @@ video {
     margin-bottom: 110px;
 }
 
+#portfolio h2 {
+    padding-top: 126px;
+    padding-bottom: 76px;
+    font-size: 45px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #2C3E50;
+    font-weight: 700;
+    text-align: center;
+}
+
 .portfolio-item-list {
     justify-content: space-between;
     justify-items: center;
@@ -189,6 +203,79 @@ video {
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
     -o-transition: all 0.6s;
+}
+
+.portfolio-gallery {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 108px;
+    margin-bottom: 115px;
+}
+
+.gallery {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    position: relative;
+    max-width: 348px;
+    max-height: 260px;
+    border: 10px solid #EEE;
+    box-sizing: border-box;
+    background-color: #2C3E50;
+    opacity: 1;
+}
+
+.text-holder {
+    visibility: hidden;
+    max-width: 348px;
+    flex-direction: column;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.text-holder h3 {
+    font-size: 35px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #2ECC71;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.inf {
+    text-decoration: none;
+    width: 25%;
+    height: auto;
+    color: #2ECC71;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid #2ECC71;
+    padding: 7px 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.inf:hover {
+    text-decoration: none;
+    color: #2ECC71;
+}
+
+.gallery-item:hover > .text-holder {
+    visibility: visible;
+    opacity: 1;
 }
 
 #team {
