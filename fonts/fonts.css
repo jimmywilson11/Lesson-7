@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Droid Sans Bold';
+    font-family: 'Droid Sans Bold' serif;
     src: url('DroidSans-Bold.ttf') format('ttf'),
-         url('DroidSans-Bold.eot') format('eot')
+         url('DroidSans-Bold.eot') format('eot'),
          url('DroidSans-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Droid Sans Regular';
     src: url('DroidSansMono.ttf') format('ttf'),
-         url('DroidSansMono.eot') format('eot')
+         url('DroidSansMono.eot') format('eot'),
          url('DroidSansMono.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Droid Serif Regular';
     src: url('DroidSerif.ttf') format('ttf'),
-         url('DroidSerif.eot') format('eot')
+         url('DroidSerif.eot') format('eot'),
          url('DroidSerif.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -28,7 +28,7 @@
 @font-face {
     font-family: 'Droid Serif Bold';
     src: url('DroidSerif-Bold.ttf') format('ttf'),
-         url('DroidSerif-Bold.eot') format('eot')
+         url('DroidSerif-Bold.eot') format('eot'),
          url('DroidSerif-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;

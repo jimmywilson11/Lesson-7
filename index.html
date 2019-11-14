@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css">
     <script src="https://kit.fontawesome.com/03c68ce9ed.js" crossorigin="anonymous"></script>
@@ -10,7 +11,7 @@
     <title>Lesson 7</title>
 </head>
 <body>
-    <header class="fixed-top">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col col-lg-3 offset-lg-1">
@@ -45,26 +46,20 @@
     <section id="#video">
         <div class="container">
             <div class="row">
-                <div class="sixteen-nine">
-                    <video autoplay loop muted>
-                        <source src="src/main-video.mp4" type="video/mp4">
-                        <source src="src/main-video.ogv" type="video/ogg">
-                        <source src="src/main-video.webm" type="video/webm">
-                     </video>
+                <div class="col col-lg-12 sixteen-nine">
                 </div>
             </div>
             <div class="row-greetings">
-                <div class="col col-lg-8">
-                    <h2>Welcome to Kramer Industries</h2>
+                <div class="col col-lg-8 m-auto">
+                    <h2>Welcome To Kramer Industries</h2>
                     <div class="wrapper">
-                        <a href=""><span class="fas fa-angle-down"></span></a>
+                        <a href="#"><span class="fas fa-angle-down"></span></a>
                     </div>    
                     <p>Explore</p>
                 </div>
             </div>
        </div>
     </section>
-
 
     <section id="about">
         <div class="container">
@@ -111,9 +106,9 @@
         
     <section id="portfolio">
         <div class="container">
+            <h2>Portfolio</h2>
             <div class="row">
-                <div class="col col-lg-9">
-                    <h2>Portfolio</h2>
+                <div class="col col-lg-8 m-auto">
                     <nav class="portfolio-nav">
                         <ul class="portfolio-item-list d-flex">
                             <li><a href="#">All</a></li>
@@ -125,6 +120,58 @@
                     </nav>
                 </div>
             </div>
+            <div class="row">
+                <div class="col col-lg-12 portfolio-gallery">
+                    <ul class="gallery d-flex">
+                        <li class="gallery-item">
+                            <img src="./img/gimg001.jpg" alt="Digitales Illustration">
+                            <div class="text-holder">
+                                <h3>Digitales Illustration</h3>
+                                <a href="https://dribbble.com/shots/7945795-Digitales-illustration" class="inf">View
+                                    Project</a>
+                            </div>
+                        </li>
+                        <li class="gallery-item">
+                            <img src="./img/gimg002.jpg" alt="Sellions Presentation">
+                            <div class="text-holder">
+                                <h3>Sellions Presentation</h3>
+                                <a href="https://dribbble.com/shots/6565949-Sellions-Presentation" class="inf">View
+                                    Project</a>
+                            </div>
+                        </li>
+                        <li class="gallery-item">
+                            <img src="./img/gimg003.jpg" alt="Bet App Start">
+                            <div class="text-holder">
+                                <h3>Bet App Start</h3>
+                                <a href="https://dribbble.com/shots/6084884-Bet-App-Start" class="inf">View Project</a>
+                            </div>
+                        </li>
+                        <li class="gallery-item">
+                            <img src="./img/gimg004.jpg" alt="Wireframes Design">
+                            <div class="text-holder">
+                                <h3>Wireframes Design</h3>
+                                <a href="https://dribbble.com/shots/5544515-website-v-2-wireframes" class="inf">View
+                                    Project</a>
+                            </div>
+                        </li>
+                        <li class="gallery-item">
+                            <img src="./img/gimg005.jpg" alt="Sellions Website">
+                            <div class="text-holder">
+                                <h3>Sellions Website</h3>
+                                <a href="https://dribbble.com/shots/5448985-Sellions-Website" class="inf">View Project</a>
+                            </div>
+                        </li>
+                        <li class="gallery-item">
+                            <img src="./img/gimg006.jpg" alt="Simply Beauty Website">
+                            <div class="text-holder">
+                                <h3>Simply Beauty Website</h3>
+                                <a href="https://dribbble.com/shots/5818298-Simply-beauty-website" class="inf">View
+                                    Project</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -133,7 +180,7 @@
             <h2>Team</h2>
             <div class="row team-cards">
                 <ul class="col col-lg-8 m-auto team-info">
-                    <li class="col col-lg-4">
+                    <li class="col mate">
                         <img src="./img/mate001.jpg" alt="Cosmo Kramer">
                         <h3>Cosmo Kramer</h3>
                         <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -143,7 +190,7 @@
                             <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                         </ul>
                     </li>
-                    <li class="col col-lg-4">
+                    <li class="col mate">
                        <img src="./img/mate002.jpg" alt="George Constanza">
                         <h3>George Constanza</h3>
                         <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -173,7 +220,7 @@
                         <input type="submit" name="comment-form" class="btn" value="Submit">
                     </form>
                 </div>
-                <div class="col col-lg-2 address">
+                <div class="col col-lg-3 address">
                     <span>Address</span>
                     <p>129 West 81st Street New York, NY 10024</p>
                     <span>Email</span>
@@ -184,6 +231,7 @@
             </div>
         </div>
     </section>
+    
     <footer>
         <div class="container">
             <div class="row logo">
