@@ -207,21 +207,17 @@ video {
 }
 
 .team-cards {
-    padding-top: 68px;
+    margin-top: 68px;
 }
 
 .team-info {
     display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
     padding-bottom: 110px;
 }
 
 .team-info img {
     height: 230px;
     width: 230px;
-    
     border-radius: 115px;
     background-color: #FFF;
     border: #FFF 3px solid;
@@ -323,7 +319,7 @@ input {
 
 .message {
     resize: none;
-    width: 90%;
+    width: 73%;
     padding-top: 68px;
     font-size: 26px;
     line-height: 33px;
@@ -356,8 +352,12 @@ input {
     -ms-transition: 0.5s all;
     -o-transition: 0.5s all;
 }
-
 .address {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address p {
     font-size: 20px;
     letter-spacing: 0px;
     line-height: 33px;
