@@ -13,14 +13,14 @@
     <header class="fixed-top">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 offset-xl-1">
+                <div class="col col-lg-3 offset-lg-1">
                     <h1 class="site-title">
                         <a href="index.html" class="logo">
                             <img src="./img/logo_kramer.png" alt="Logo" class="logo-img">
                         </a>
                     </h1>
                 </div>
-                <div class="col-xl-4 ml-auto">
+                <div class="col col-lg-4 ml-auto">
                     <nav class="nav">
                         <ul class="menu d-flex">
                             <li class="nav-item">
@@ -43,33 +43,33 @@
     </header>
 
     <section id="#video">
-        <div class="sixteen-nine">
-            <div class="container">
-                <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="sixteen-nine">
                     <video autoplay loop muted>
                         <source src="src/main-video.mp4" type="video/mp4">
                         <source src="src/main-video.ogv" type="video/ogg">
                         <source src="src/main-video.webm" type="video/webm">
-                    </video>
-                </div>
-                <div class="row-greetings">
-                    <div class="col-xl-8">
-                        <h2>Welcome to Kramer Industries</h2>
-                        <div class="wrapper">
-                            <a href=""><span class="fas fa-angle-down"></span></a>
-                        </div>    
-                        <p>Explore</p>
-                    </div>
+                     </video>
                 </div>
             </div>
-        </div>
+            <div class="row-greetings">
+                <div class="col col-lg-8">
+                    <h2>Welcome to Kramer Industries</h2>
+                    <div class="wrapper">
+                        <a href=""><span class="fas fa-angle-down"></span></a>
+                    </div>    
+                    <p>Explore</p>
+                </div>
+            </div>
+       </div>
     </section>
 
 
     <section id="about">
         <div class="container">
-            <div class="row justify-content-center about-info">
-                <div class="col-xl-8 about-info">
+            <div class="row about-info">
+                <div class="col col-lg-12 about-info">
                     <h2>About</h2>
                     <p>This is Photoshop's version of Lorem Ipsum.
                     Proin gravida nibh vel velit auctor aliquet.
@@ -83,21 +83,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-9">
+                <div class="col col-lg-9 m-auto">
                     <ul class="service-card row">
-                        <li class="col-md-3">
+                        <li class="col col-lg-3">
                             <span class="fas fa-cog"></span>
                             <h3>Services</h3>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                             Aenean sollicitudin, lorem quis bibendum auctor,</p>
                         </li>
-                        <li class="col-md-3">
+                        <li class="col col-lg-3">
                             <span class="far fa-eye"></span>
                             <h3>Retina Display</h3>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                             Aenean sollicitudin, lorem quis bibendum auctor,</p>
                         </li>
-                        <li class="col-md-3">
+                        <li class="col col-lg-3">
                             <span class="fas fa-tools"></span>
                             <h3>Full Support</h3>
                             <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -112,11 +112,11 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-xl-9">
+                <div class="col col-lg-9">
                     <h2>Portfolio</h2>
                     <nav class="portfolio-nav">
                         <ul class="portfolio-item-list d-flex">
-                            <li><a href="#" active>All</a></li>
+                            <li><a href="#">All</a></li>
                             <li><a href="#">Design</a></li>
                             <li><a href="#">Web</a></li>
                             <li><a href="#">Illustration</a></li>
@@ -130,18 +130,86 @@
 
     <section id="team">
         <div class="container">
-
+            <h2>Team</h2>
+            <div class="row team-cards">
+                <ul class="col col-lg-8 m-auto team-info">
+                    <li class="col col-lg-4">
+                        <img src="./img/mate001.jpg" alt="Cosmo Kramer">
+                        <h3>Cosmo Kramer</h3>
+                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                        <ul class="social d-flex">
+                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="col col-lg-4">
+                       <img src="./img/mate002.jpg" alt="George Constanza">
+                        <h3>George Constanza</h3>
+                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor,</p> 
+                        <ul class="social d-flex justify-content-center">
+                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-
+            <h2>Contact</h2>
+            <p class="contact-info">Please contact us and we can discuss work!</p>
+            <div class="row justify-content-center">
+                <div class="col col-lg-4 comment-form">
+                    <form action="#" method="POST">
+                        <input type="text" name="name" id="name" placeholder="Name" class="name" value="">
+                        <label for="name"></label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="email" value="">
+                        <label for="email"></label>
+                        <textarea name="message" id="message" placeholder="Message" class="message"></textarea>
+                        <label for="message"></label>
+                        <input type="submit" name="comment-form" class="btn" value="Submit">
+                    </form>
+                </div>
+                <div class="col col-lg-2 address">
+                    <span>Address</span>
+                    <p>129 West 81st Street New York, NY 10024</p>
+                    <span>Email</span>
+                    <a href="mailto:giddyup@kramer.com" class="refs">giddyup@kramer.com</a>
+                    <span>Phone</span>
+                    <a href="tel:+12125321256" class="refs">+1 212-532-1256</a>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
         <div class="container">
-
+            <div class="row logo">
+                <div class="col col-lg-3 offset-lg-1">
+                    <a href="index.html" class="logo">
+                        <img src="./img/logo_kramer.png" alt="Logo" class="logo-img">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-2 offset-lg-1 f-address">
+                    <p>129 West 81st Street</p>
+                    <p>New York, NY 10024</p>
+                </div>
+                <div class="col col-lg-2 offset-lg-1 referenses">
+                    <a href="mailto:giddyup@kramer.com">giddyup@kramer.com</a>
+                    <a href="tel:+12125321256">+1 212-532-1256</a>
+                </div>
+                <div class="col col-lg-3 offset-lg-1">
+                    <ul class="f-social d-flex justify-content-around">
+                        <li class="social-item"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                        <li class="social-item"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                        <li class="social-item"><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 
