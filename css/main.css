@@ -27,13 +27,6 @@ header {
 }
 
 
-
-
-video {
-    width: 100%;
-    height: auto;
-}
-
 .sixteen-nine {
     position: relative;
 }
@@ -166,6 +159,7 @@ video {
     margin-bottom: 110px;
 }
 
+
 #portfolio h2 {
     padding-top: 126px;
     padding-bottom: 76px;
@@ -179,7 +173,7 @@ video {
 
 .portfolio-item-list {
     justify-content: space-between;
-    justify-items: center;
+    align-items: center;
 }
 
 .portfolio-item-list a {
@@ -206,20 +200,25 @@ video {
 }
 
 .portfolio-gallery {
-    margin: 0 auto;
     justify-content: center;
     margin-top: 108px;
     margin-bottom: 115px;
 }
 
 .gallery {
-    align-items: center;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.gallery img {
+.gallery-item {
     position: relative;
-    max-width: 348px;
+    margin: 10px;
+}
+
+
+.gallery img {
+   max-width: 348px;
     max-height: 260px;
     border: 10px solid #EEE;
     box-sizing: border-box;
@@ -232,19 +231,21 @@ video {
     max-width: 348px;
     flex-direction: column;
     position: absolute;
+    max-width: 0 auto;
+    border: 10px solid #EEE;
+    background-color: #2C3E50;
     padding: 20px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    
 }
 
 .text-holder h3 {
     font-size: 35px;
     letter-spacing: 0px;
     line-height: 31px;
-    color: #2ECC71;
+    color: #FFF;
     font-weight: 700;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -255,13 +256,12 @@ video {
     text-decoration: none;
     width: 25%;
     height: auto;
-    color: #2ECC71;
+    color: #FFF;
     border-radius: 15px;
     background-color: transparent;
-    border: 2px solid #2ECC71;
+    border: 2px solid #FFF;
     padding: 7px 15px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 80px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
@@ -270,7 +270,7 @@ video {
 
 .inf:hover {
     text-decoration: none;
-    color: #2ECC71;
+    color: #FFF;
 }
 
 .gallery-item:hover > .text-holder {
@@ -385,7 +385,6 @@ video {
 }
 
 .comment-form {
-    justify-content: space-between;
     margin-bottom: 112px;
 }
 
@@ -439,12 +438,15 @@ input {
     -ms-transition: 0.5s all;
     -o-transition: 0.5s all;
 }
+
 .address {
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .address p {
+    width: 75%;
     font-size: 20px;
     letter-spacing: 0px;
     line-height: 33px;
@@ -452,6 +454,10 @@ input {
     font-family: 'Droid Sans Regular' serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.refs {
+    font-size: 20px;
 }
 
 .refs:hover {
