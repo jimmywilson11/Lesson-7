@@ -27,13 +27,6 @@ header {
 }
 
 
-
-
-video {
-    width: 100%;
-    height: auto;
-}
-
 .sixteen-nine {
     position: relative;
 }
@@ -165,6 +158,7 @@ video {
     text-align: center;
     margin-bottom: 110px;
 }
+
 
 #portfolio h2 {
     padding-top: 126px;
@@ -391,7 +385,6 @@ video {
 }
 
 .comment-form {
-    justify-content: space-between;
     margin-bottom: 112px;
 }
 
@@ -445,12 +438,15 @@ input {
     -ms-transition: 0.5s all;
     -o-transition: 0.5s all;
 }
+
 .address {
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .address p {
+    width: 75%;
     font-size: 20px;
     letter-spacing: 0px;
     line-height: 33px;
@@ -458,6 +454,10 @@ input {
     font-family: 'Droid Sans Regular' serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.refs {
+    font-size: 20px;
 }
 
 .refs:hover {
