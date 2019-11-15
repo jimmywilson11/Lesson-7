@@ -45,9 +45,13 @@
 
     <section id="video">
         <div class="container">
-            <div class="row">
-                <div class="col col-lg-12 sixteen-nine">
-                </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <video autoplay loop class="embed-responsive-item">
+                    <source src="src/main-video.mp4" type="video/mp4">
+                    <source src="src/main-video.ogv" type="video/ogg">
+                    <source src="src/main-video.webm" type="video/webm">
+                </video>
+                <img class="bg" src="./img/rocks.jpg" alt="BG">
             </div>
             <div class="row-greetings">
                 <div class="col col-lg-8 m-auto">
@@ -111,11 +115,11 @@
                 <div class="col col-lg-8 m-auto">
                     <nav class="portfolio-nav">
                         <ul class="portfolio-item-list d-flex">
-                            <li><a href="#">All</a></li>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Web</a></li>
-                            <li><a href="#">Illustration</a></li>
-                            <li><a href="#">Motion</a></li>
+                            <li><a class="items active" href="#">All</a></li>
+                            <li><a class="items" href="#">Design</a></li>
+                            <li><a class="items" href="#">Web</a></li>
+                            <li><a class="items" href="#">Illustration</a></li>
+                            <li><a class="items" href="#">Motion</a></li>
                         </ul>
                     </nav>
                 </div>
