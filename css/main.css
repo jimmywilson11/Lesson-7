@@ -558,6 +558,10 @@ footer .logo {
         font-size: 36px;
     }
     
+    video {
+    display: none;
+    }   
+
     .bg {
         display: block;
         position: absolute;
