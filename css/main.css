@@ -552,7 +552,7 @@ footer .logo {
     text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 420px) {
     
     h2 {
         font-size: 36px;
