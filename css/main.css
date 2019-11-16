@@ -637,3 +637,40 @@ footer .logo {
         font-size: 24px;
     }
 }
+
+@media (min-width: 576px) {
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    video {
+    display: none;
+    }   
+
+    .bg {
+        display: block;
+        position: absolute;
+    }
+
+    .row-greetings h2 {
+        font-size: 42px;
+        line-height: 60px;
+        margin-bottom: 60px;
+    }
+
+    .row-greetings p {
+        font-size: 20px;
+    }
+
+    .row-greetings a {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .row-greetings a>span {
+        padding-top: 8px;
+        font-size: 26px;
+    }
+}
