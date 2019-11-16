@@ -551,3 +551,92 @@ footer .logo {
     font-size: 36px;
     text-align: center;
 }
+
+@media (min-width: 576px) {
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    .bg {
+        display: block;
+        position: absolute;
+    }
+
+    .row-greetings {
+        padding-bottom: 30px;
+    }
+
+    .row-greetings h2 {
+        font-size: 42px;
+        line-height: 60px;
+        margin-bottom: 60px;
+    }
+
+    .row-greetings p {
+        font-size: 20px;
+    }
+
+    .row-greetings a {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .row-greetings a>span {
+        padding-top: 10px;
+        font-size: 26px;
+    }
+
+    .service-card span {
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .portfolio-item-list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 300px;
+        border: 6px solid #EEE;
+    }
+
+    .text-holder {
+        max-width: 300px;
+        border: 6px solid #EEE;
+    }
+
+    .text-holder h3 {
+        font-size: 24px;
+    }
+
+    .team-info {
+        justify-content: center;
+    }
+
+    .social span {
+        font-size: 30px;
+        width: 64px;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    .btn {
+        left: 50;
+    }
+
+    .f-social a {
+        display: block;
+        width: 42px;
+        height: 42px;
+    }
+
+    .f-social span {
+        font-size: 24px;
+    }
+}
