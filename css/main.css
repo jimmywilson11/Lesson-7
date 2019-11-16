@@ -552,7 +552,7 @@ footer .logo {
     text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 420px) {
     
     h2 {
         font-size: 36px;
@@ -565,10 +565,6 @@ footer .logo {
     .bg {
         display: block;
         position: absolute;
-    }
-
-    .row-greetings {
-        padding-bottom: 30px;
     }
 
     .row-greetings h2 {
@@ -588,14 +584,15 @@ footer .logo {
     }
 
     .row-greetings a>span {
-        padding-top: 10px;
+        padding-top: 8px;
         font-size: 26px;
     }
 
-    .service-card span {
-        font-size: 50px;
-        width: 100px;
-        height: 100px;
+    .service-card li {
+        flex-wrap: wrap;
+        margin-right: 45px;
+        margin-bottom: 45px;
+        width: 100%;
     }
 
     .portfolio-item-list {
@@ -627,11 +624,7 @@ footer .logo {
     }
 
     .message {
-        width: 100%;
-    }
-
-    .btn {
-        left: 50;
+        width: 64%;
     }
 
     .f-social a {
