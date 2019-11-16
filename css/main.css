@@ -674,3 +674,35 @@ footer .logo {
         font-size: 26px;
     }
 }
+
+@media (min-width: 768px) {
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    video {
+    display: none;
+    }   
+
+    .bg {
+        display: block;
+        position: absolute;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    h2 {
+        font-size: 36px;
+    }
+    
+    video {
+    display: none;
+    }   
+
+    .bg {
+        display: block;
+        position: absolute;
+    }
+}
